@@ -35,6 +35,7 @@ public class Shop {
     private Address address;
 
     @NonNull
+    @Enumerated(EnumType.STRING)
     private Status status;
 
 }

@@ -30,5 +30,6 @@ public class CollectionPoint {
     private String photoPath;
 
     @NonNull
+    @Enumerated(EnumType.STRING)
     private Status status;
 }
